@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
 
             notificationManager.notify(0,builder.build())
 
-            MediaPlayer.create(applicationContext, R.raw.tone).start()
+            MediaPlayer.create(applicationContext, R.raw.sound).start()
 
         }
 
