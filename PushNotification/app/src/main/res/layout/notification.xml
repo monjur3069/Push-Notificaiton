@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:padding="10dp"
-    android:layout_margin="10dp"
+    android:padding="0dp"
     android:background="@drawable/round_shape"
+    android:backgroundTint="#F7C1B4B4"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
@@ -15,7 +15,6 @@
         android:layout_width="55dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@color/black"
         android:src="@drawable/ic_tiger" />
 
     <TextView
@@ -27,44 +26,5 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-<!--    <RelativeLayout-->
-<!--        android:background="@drawable/round_shape"-->
-<!--        android:padding="10dp"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content">-->
-
-<!--        <ImageView-->
-<!--            android:id="@+id/app_logo1"-->
-<!--            android:layout_width="80dp"-->
-<!--            android:layout_marginLeft="10dp"-->
-<!--            android:layout_marginRight="10dp"-->
-<!--            android:layout_height="80dp"-->
-<!--            android:background="@color/black"-->
-<!--            android:src="@drawable/ic_tiger" />-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/title1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Title"-->
-<!--            android:textSize="20sp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_toRightOf="@+id/app_logo"-->
-<!--            android:layout_marginLeft="10dp"-->
-<!--            android:layout_marginTop="15dp"/>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/description1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_below="@+id/app_logo"-->
-<!--            android:layout_marginLeft="10dp"-->
-<!--            android:layout_marginTop="-29dp"-->
-<!--            android:layout_toRightOf="@+id/app_logo"-->
-<!--            android:text="This is description"-->
-<!--            android:textSize="20sp"-->
-<!--            android:textStyle="bold" />-->
-
-<!--    </RelativeLayout>-->
 
 </LinearLayout>
